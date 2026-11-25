@@ -1,5 +1,5 @@
 #let settings = doc => {
-  set text(font: "Rachana", costs: (hyphenation: 20%))
+  set text(font: "Rachana", costs: (hyphenation: 20%), size: 10.5pt)
   set par(justify: true, first-line-indent: 1em)
   set page("a5", margin: 1.5cm)
 

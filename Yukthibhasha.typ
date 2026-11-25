@@ -19,3 +19,4 @@
 #counter(page).update(1)
 #set page(numbering: "1")
 #include "അവതാരിക.typ"
+#include "ശുദ്ധിപത്രം.typ"
