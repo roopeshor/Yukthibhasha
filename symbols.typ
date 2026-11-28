@@ -79,10 +79,9 @@
 
 #pagebreak()
 
-#import "figs/directions.typ": directions
 
-#align(center + horizon)[
-  #text(size: 1.4em)[*ദിക്കുകൾ*]
-
-  #directions
-]
+ #align(center + horizon)[
+   #text(size: 1.4em)[*ദിക്കുകൾ*]
+ 
+   #image("figs/directions.pdf")
+ ]

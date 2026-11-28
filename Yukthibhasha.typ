@@ -14,7 +14,7 @@
   footer: {},
 )
 #include "ഉപോൽഘാതം.typ"
-#include "ചിഹ്നങ്ങൾ.typ"
+#include "symbols.typ"
 #pagebreak()
 #counter(page).update(1)
 #set page(numbering: "1")

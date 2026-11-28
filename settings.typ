@@ -3,9 +3,9 @@
     font: "RIT Rachana",
     lang: "ml",
     size: 10.5pt,
-		costs: (
-			hyphenation: 0%
-		)
+    costs: (
+      hyphenation: 0%,
+    ),
   )
   show math.equation: set text(
     font: (
@@ -29,8 +29,13 @@
 
   set quote(quotes: false)
   show quote: q => {
+    set par(first-line-indent: 0pt)
     align(center)[
-      #text(weight: "bold")[#q]
+      #box[
+        #align(left)[
+          #text(weight: "bold")[#q]
+        ]
+      ]
     ]
   }
   set footnote.entry(separator: line(length: 100%, stroke: 0.5pt))
