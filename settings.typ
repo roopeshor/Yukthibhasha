@@ -26,6 +26,11 @@
     ]
     v(.6em)
   }
+  show heading.where(level: 3): it => {
+    align(center)[
+      #text(size: 14pt, weight: "bold")[#it]
+    ]
+  }
 
   set quote(quotes: false)
   show quote: q => {
@@ -34,10 +39,12 @@
       #box[
         #align(left)[
           #text(weight: "bold")[#q]
+          #if q.attribution != none [#h(1cm) -(#q.attribution)]
         ]
       ]
     ]
   }
+
   set footnote.entry(separator: line(length: 100%, stroke: 0.5pt))
 
   doc
